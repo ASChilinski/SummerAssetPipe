@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: make mannequin.ma
-//Last modified: Wed, Jun 05, 2019 08:47:58 AM
+//Last modified: Wed, Jun 05, 2019 08:47:37 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -16,13 +16,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "A2362C81-4C22-FD24-F92A-C9824B27D38D";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -6.1915047987182161 225.74901490920641 785.99191212485675 ;
+	setAttr ".t" -type "double3" 219.9107584882868 231.34132530754047 659.63158893807019 ;
 	setAttr ".r" -type "double3" -9.3383523139700522 -4320.5999999996184 6.2123614899551582e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "17FC7A87-49FB-251B-46B7-B3B60C5DE7F8";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 763.79636094962086;
+	setAttr ".coi" 637.68860391686701;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
